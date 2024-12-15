@@ -3,8 +3,15 @@ on:
   workflow_dispatch:
     inputs:
       greeting:
-        type: string
-        default: Hello
+        # 文字列
+        # type: string
+        # default: Hello
+        # 列挙型
+        type: choice
+        options:
+          - info
+          - warn
+          - error
         required: true
         description: A cheerful word
 jobs:
