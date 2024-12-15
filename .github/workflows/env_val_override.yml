@@ -11,4 +11,4 @@ jobs:
       - run: echo "${EXAMPLE}"
       - env:
           EXAMPLE: Defined by step level
-        run: "${EXAMPLE}"
+        run: echo "${EXAMPLE}"
