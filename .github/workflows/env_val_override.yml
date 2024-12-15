@@ -5,8 +5,6 @@ env:
 jobs:
   run:
     runs-on: ubuntu-latest
-    env:
-      EXAMPLE: main
     steps:
       - run: echo "${EXAMPLE}"
       - env:
